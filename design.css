@@ -1,0 +1,117 @@
+body *{
+font-family:Corbel,Verdana, sans-serif;
+font-size:100%;
+}
+body{
+position:relative;
+width:98%;
+min-width:1000px;
+max-width:1400px;
+}
+header{
+top:0px;
+left:0px;
+width:100%;
+border-bottom:1px solid rgb(23,96,155); 
+font-family:Constantia,Verdana, sans-serif;
+font-size:6em;
+color: black;
+text-shadow:black 1px 1px 0px, rgba(56,45,44,0.7) 5px 5px 10px;
+margin-left: 15px; 
+}
+
+/*images*/
+#logo{
+padding-top:15px;
+background-color:#FFF;
+padding-left:10px;
+-moz-border-radius:25px;
+-webkit-border-radius:25px;
+border-radius:25px;
+
+-moz-box-shadow:rgba(0,0,0,0.6)10px 10px 15px;
+-webkit-box-shadow:rgba(0,0,0,0.6)10px 10px 15px;
+box-shadow:rgba(0,0,0,0.6)10px 10px 15px;
+
+text-decoration:none;
+border-color:#FFF;
+}
+
+#face{
+margin-top: 15px;
+margin-top: 15px;
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+border-radius:40px;
+float:left;
+}
+
+/*verticalNAV styles*/
+nav.verticalNAV{
+float:left;
+margin-left:1%;
+width:20%;
+font-size:1.2em;
+
+}
+nav.verticalNAV ul li {
+list-style-type:none;
+text-indent:10px;
+}
+
+nav.verticalNAV a{
+border-bottom:1px solid rgb(23,96,155);
+color:rgb(23,96,155);
+display:block;
+line-height:2.2em;
+text-decoration:none;
+}
+nav.verticalNAV a:hover{
+background-color:rgb(105,95,87);
+background-color:rgba(255,255,255,0.3);
+border:1px solid rgb(23,96,155);
+}
+nav.verticalNAV ul li:first-of-type{
+font-size:1.4em;
+font-variant:small-caps;
+font-weight:bold;
+}
+
+
+/*main*/
+div.main p{
+font-size:1em;
+color:rgb(0,98,0);
+
+}
+div.main{
+margin-left:330px;
+width:73%;
+margin-bottom:50px;
+}
+
+/*Bio styles*/
+/*Bio pic styles*/
+div.bioPic{
+height:300px;
+width: 200px;	
+}
+
+/*div class bioWords P tag*/
+div.bioWords p{
+vertical-align:top;
+margin-top: 60px;	
+display:inline;
+}
+/*A hover links */
+
+
+
+/*footer*/
+footer address{
+clear:left;
+border-top:1px solid rgb(23,96,155);
+color: black;
+text-align: center;
+font-size:.9 em;
+}
